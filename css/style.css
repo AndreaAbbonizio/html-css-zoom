@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -83,27 +87,77 @@
 
 }
 
-
+/* struments left */
 .container .container-player .video-edit-container{
-    width: 100px;
-    background-color: yellow;
     height: 100%;
-    /* test */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
 }
 
+.container .container-player .video-edit-container .list-icon{
+    color: white;
+    list-style-type: none;
+}
 
+.container .container-player .video-edit-container .list-icon .fa-solid{
+    font-size: 1.4em;
+}
+
+.container .container-player .video-edit-container .arrow{
+    margin: 0 8px;
+    color: white;
+}
+/* /struments left */
+
+/* struments center */
 .container .container-player .struments-container{
-    width: 100px;
-    background-color: yellow;
     height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
     /* test */
 }
 
+.container .container-player .struments-container .list-icon{
+    color: white;
+    list-style-type: none;
+    margin: 0 10px;
+}
 
+.container .container-player  .struments-container .list-icon .fa-solid{
+    font-size: 1.4em;
+}
+
+.container .container-player .struments-container .arrow{
+    margin: 0 8px;
+    color: white;
+}
+
+.container .container-player  .struments-container .list-icon .fa-share-from-square{
+    color: green;
+}
+/* /struments center */
+
+
+
+/* struments right */
 .container .container-player .button-bottom{
-    width: 100px;
-    background-color: yellow;
     height: 100%;
-    /* test */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container .container-player .button-bottom #log-out-container{
+    color: red;
+    padding: .6em;
+    background-color: #8509096b;
+}
+/* /struments right */
+
+
+
 /* /container player */

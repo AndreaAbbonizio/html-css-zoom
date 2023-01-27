@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.btn{
+    color: white;
+    background-color: grey;
+    border: transparent;
+    padding: 0.5em;
+    border-radius: 16px;
+}
+
+/* container video */
+
+.container .container-video{
+    height: calc(100% - 100px);
+    /* test */
+    background-color: green;
+}
+
+.container .container-video .video{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 50px 60px 10px;
+    overflow: auto;
+}
+
+.container .container-video .video .card-video{
+    width: calc(100% / 7 - 4px);
+    height: calc(100% / 5 - 20px);
+    background-color: red;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+.container .container-video .video .position-text{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+
+/* /container video */
+
+/* container player */
+
+.container .container-player{
+    height: 100px;
+    background-color: #222222;
+}
+
+
+/* /container player */
